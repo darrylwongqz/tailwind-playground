@@ -9,26 +9,58 @@
   </head>
   <body>
     <!-- Width -->
+    <div class="w-4 text-white bg-black">Hello</div>
+    <div class="w-48 text-white bg-black">Hello</div>
+    <div class="text-white bg-black w-96">Hello</div>
 
     <!-- Percentages -->
+    <div class="w-1/4 text-white bg-green-700">Hello</div>
+    <div class="w-1/3 text-white bg-green-700">Hello</div>
+    <div class="w-1/2 text-white bg-green-700">Hello</div>
 
     <!-- Width of the viewport -->
+    <div class="w-screen text-white bg-blue-500">Hello</div>
 
     <!-- 100% of container -->
+    <div class="w-full text-white bg-blue-500">Hello</div>
 
     <!-- min/max content -->
+    <div class="my-2 text-white bg-emerald-500 w-min">w-min</div>
+    <div class="my-2 text-white bg-emerald-500 w-max">w-max</div>
 
     <!-- Arbitrary width -->
+    <div class="bg-blue-700 text-white w-[300px]">Hello</div>
 
     <!-- Max Width -->
+    <div class="max-w-lg mx-auto bg-gray-100">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+      perferendis incidunt nihil ullam repellendus praesentium consectetur et
+      sed distinctio, magni iusto quos repellat officiis cum dolore aliquid
+      minus esse pariatur.
+    </div>
 
     <!-- Height (Most of the same options as widths) -->
+    <div class="flex items-end">
+      <div class="w-20 h-24 bg-orange-500">h-24</div>
+      <div class="w-20 h-32 bg-orange-500">h-32</div>
+      <div class="w-20 h-40 bg-orange-500">h-40</div>
+      <div class="w-20 h-48 bg-orange-500">h-48</div>
+      <div class="w-20 h-64 bg-orange-500">h-64</div>
+      <div class="w-20 bg-orange-500 h-80">h-80</div>
+    </div>
 
     <!-- Min Height -->
+    <div class="h-48 bg-red-200">
+      <div class="h-24 min-h-full bg-red-600">Tailwind is awesome</div>
+    </div>
 
     <!-- Max Height -->
+    <div class="h-24 bg-orange-200">
+      <div class="h-48 max-h-full bg-orange-500">Tailwind is awesome</div>
+    </div>
 
     <!-- Full screen height -->
+    <div class="h-screen bg-blue-300">Hello</div>
   </body>
 </html>
 
